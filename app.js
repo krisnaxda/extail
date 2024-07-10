@@ -23,7 +23,7 @@ app.use(express.static('public'))
 app.use(express.urlencoded({extended:true}))
 
 app.listen(port, (() => {
-    console.log(`Mongonotes Running on http://localhost:${port}`)
+    console.log(`Extail Running on http://localhost:${port}`)
 }))
 
 
