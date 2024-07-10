@@ -737,14 +737,6 @@ video {
   white-space: nowrap;
 }
 
-.text-clip {
-  text-overflow: clip;
-}
-
-.text-wrap {
-  text-wrap: wrap;
-}
-
 .rounded-md {
   border-radius: 0.375rem;
 }
