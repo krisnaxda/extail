@@ -128,3 +128,5 @@ const redirect = async (req, res) => {
 //page redirect 
 app.get('/:shortUrl', redirect);
 
+
+module.exports = app
