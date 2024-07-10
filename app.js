@@ -120,7 +120,7 @@ const redirect = async (req, res) => {
     res.redirect(301, redirectUrl)
   }catch (err) {
     console.error('Error fetching shortened URL:', err)
-    res.status(500).send('Internal server error')
+    res.status(500).send('Internal server werror')
   }
 }
 
