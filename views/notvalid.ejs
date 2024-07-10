@@ -1,0 +1,23 @@
+<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+  <div class="flex flex-row">
+  <div class="basis-3/4">
+    <h1 class="text-5xl text-darkblue font-semibold">
+      Oops! <br> that's not a valid url
+    </h1>
+    <p class="pt-6 text-xl">It seems <i class="font-medium"><%= longUrl %></i> is not a valid url, try again... </p>
+    <form method="POST" action="/short" class="pt-6">
+      <input type="text" required name="url" class="rounded-md w-8/12 h-10 block flex-1 py-1.5 pl-3 text-abu" placeholder="Your link">
+        <button type="submit" class="flex items-center justify-center px-4 py-2 bg-darkblue hover:bg-hovdarkblue text-white font-semibold rounded-md mt-6">
+          <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.66663 9.33333L5.66663 5.33333L1.66663 1.33333M6.99996 10.6667H12.3333" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>&nbsp Short it</span>
+                       
+        </button>
+  </div>
+  <div class="basis-8/12">
+    <img src="assets/share-link.svg" class="w-full mt-8" alt="">
+  </div>
+</div>
+  </div>
+  

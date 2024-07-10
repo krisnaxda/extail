@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link href="/css/style.css" rel="stylesheet">
+    <script src="/js/main.js"></script>
+</head>
+<body class="container w-9/12 px-4 mx-auto pt-16 bg-standard grid grid-cols-1 min-h-screen">
+      <nav>
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex flex-shrink-0 items-center">
+                <a href="/"><img class="h-10 w-auto" src="/assets/logo.svg" alt="Your Company"></a>
+              </div>
+            </div>
+      
+              <!-- side kanan -->
+              <div class="relative ml-3">
+                <div class="hidden sm:ml-6 sm:block">
+                  <div class="flex space-x-4">
+                    <a href="#" class="rounded-md px-3 py-2 text-md font-semibold text-ijo hover:text-ijo-hov">Shortener</a>
+                    <a href="#" class="rounded-md px-3 py-2 text-md font-semibold text-ijo hover:text-ijo-hov">ToDo</a>
+                    <a href="#" class="rounded-md px-3 py-2 text-md font-semibold text-ijo hover:text-ijo-hov">About</a>
+                  </div>
+                </div>
+              </div>
+        </nav>
+      <article class="pt-5">
+        <%- body %>
+      </article>
+      <footer class="grid justify-items-center content-center text-ijo font-medium p-4">
+        Made with &#10084; by Sepsana
+      </footer>
+</body>
+</html>

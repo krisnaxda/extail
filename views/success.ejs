@@ -1,0 +1,36 @@
+<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+  <div class="flex flex-row">
+  <div class="basis-3/4">
+    <h1 class="text-7xl text-darkblue font-semibold">
+      Shorting succeeded!
+    </h1>
+    <p class="pt-6 text-xl">here is your new short url, copy and enjoy it</p>
+    <div class="mt-6 w-10/12 h-16 px-3 flex justify-between items-center border bg-abuawhite rounded-md border-ijo">
+    <input type="text" disabled id="link" class="text-xl underline underline-offset-1 text-ijo bg-abuawhite hover:text-ijo-hov" value="<%= sitelink+url.shortLink %>"> <button onclick="copyLink()" class="text-darkblue">Copy text</button>
+    </div>
+    <label class="block mt-6">
+      <span class="block text-sm font-medium text-darkblue">Original Link</span>
+    </label>
+    <label class="block mt-2">
+        <input type="text" disabled class="w-10/12 pt-5 text-sm font-light underline underline-offset-1 text-darkblue hover:text-ijo-hov truncate" value="<%= url.ogLink %>">
+      </label>
+
+      <a href="<%= sitelink %>" class="w-5/12 flex items-center justify-center px-4 py-2 bg-darkblue hover:bg-hovdarkblue text-white font-semibold rounded-md mt-6">
+        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.66663 9.33333L5.66663 5.33333L1.66663 1.33333M6.99996 10.6667H12.3333" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Short Again!</span>
+                     
+        </a>
+    
+
+    <p class="mt-20 font-sans text-darkblue text-xl mb-3">Wanna see some cool stuff? <br>
+      try our custom url shortener with stats here</p>
+      <a href="/custom" class="text-3xl underline underline-offset-2 font-bold text-darkblue hover:text-hovdarkblue">Sepsana Custom Url</a>
+  </div>
+  <div class="basis-8/12">
+    <img src="/assets/share-link.svg" class="w-full mt-8" alt="">
+  </div>
+</div>
+  </div>
+  
